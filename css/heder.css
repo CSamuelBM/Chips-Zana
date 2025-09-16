@@ -1,0 +1,61 @@
+
+
+#encabezadoNav {
+    background-color: #ff3b4b;
+    float: unset;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+
+#imgLogo {
+    width: 70px;
+    margin-left: 120px;
+    margin-top: 3px;
+    float: left;
+}
+
+
+#imgMascota {
+    width: 60px;
+    margin-top: 3px;
+    margin-right: 150px;
+    float: right;
+}
+
+@media (max-width: 575px) {
+    
+
+    #encabezadoNav {
+      background-color: #ff3b4b;
+      float: unset;
+      height: 10%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 100;
+   }
+
+
+    #imgLogo {
+      width: 70px;
+      margin-left: 40px;
+      margin-top: 3px;
+      float: left;
+   }
+
+
+   #imgMascota {
+      width: 60px;
+      margin-top: 3px;
+      margin-right: 40px;
+      float: right;
+   }
+
+   
+}

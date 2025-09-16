@@ -1,0 +1,51 @@
+
+
+#menuNav {
+    width: 60%;
+    list-style-type: none; 
+    margin: 10px;
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.listNav {
+    display: inline;
+    margin-right: 5%;
+}
+
+
+.textMenu {
+    text-decoration: none;
+    color: rgb(80, 24, 24);
+    font-size: 16px;
+}
+
+
+.textMenu:hover {
+    font-weight: bold;
+    color: #390000;
+}
+
+@media (max-width: 575px) {
+    
+
+   #menuNav {
+      width: 30%;
+      list-style-type: none; 
+      margin: 25px;
+      float: left;
+      margin-top: 20px;
+      text-align: center;
+   }
+
+
+   .listNav {
+      display: inline;
+      
+      margin-right: 3%;
+   }
+
+   
+}
