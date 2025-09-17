@@ -28,24 +28,31 @@
     color: #390000;
 }
 
-@media (min-width: 300px) and (max-width: 575px) {
+@media (max-width: 900px) {
     
 
    #menuNav {
-      width: 30%;
+      width: 60%;
       list-style-type: none; 
-      margin: 25px;
+      margin: 40px;
       float: left;
-      margin-top: 20px;
+      margin-top: -30px;
       text-align: center;
    }
 
 
    .listNav {
       display: inline;
-      
-      margin-right: 3%;
+      margin-right: 5%;
    }
+
+
+   .textMenu {
+      text-decoration: none;
+      color: rgb(80, 24, 24);
+      height: 10%;
+      font-size: 16px;
+    } 
 
    
 }
