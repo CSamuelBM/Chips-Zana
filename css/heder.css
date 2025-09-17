@@ -27,7 +27,7 @@
     float: right;
 }
 
-@media (max-width: 575px) {
+@media (min-width: 300px) and (max-width: 575px) {
     
 
     #encabezadoNav {

@@ -28,7 +28,7 @@
     color: #390000;
 }
 
-@media (max-width: 575px) {
+@media (min-width: 300px) and (max-width: 575px) {
     
 
    #menuNav {
